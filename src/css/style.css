@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #fbc2eb, #a6c1ee );
+}
+
+#counter {  
+    padding: 3rem;
+    border-radius: 15px;
+}
+
+#value {
+    font-size: 4rem;
+    color: white;
+    min-width: 14rem;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+.count-button {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    background-color: transparent;
+    margin-right: 1rem;
+}
+
+.count-button:last-child {
+    margin-right: 0rem;
+    margin-left: 1rem;
+}
+
+
+#reset {
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+
